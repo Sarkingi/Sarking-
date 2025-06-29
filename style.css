@@ -1,0 +1,145 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(224, 215, 216, 0.267);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+h1 {
+   text-transform: uppercase;
+}
+
+h1 span {
+    color: rgb(62, 155, 67);
+}
+
+body {
+
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 4px;
+    margin: 10px 16px;
+
+}
+
+header nav a:hover {
+    color: rgb(113, 199, 113);
+    cursor: pointer;
+}
+
+section {
+    height: 100vh;
+}
+
+section#home {
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(231, 235, 231, 0.445);
+    align-items: center;
+    line-height: 3em;
+}
+
+section#home img {
+
+}
+
+section#home h2 {
+    font-size: 40px;
+}
+
+section#home h3 {
+    font-size: 24px;
+}
+
+section#home p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+section#home button {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+section#samples {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;  
+   padding: 0px 35px;
+   
+}
+
+section#samples article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgba(231, 235, 231, 0.445);
+    width: 50%;
+    padding: 30px;
+    margin: 10px;
+}
+
+section#samples article img {
+    width: 250px;
+}
+
+section#samples .iphone-sample img {
+    width: 290px;
+}
+
+section#samples article h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section#samples article p {
+    font-size: 18px;
+}
+
+section#products h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+section#products article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+section#products .iphones img {
+    width: 200px;
+}
+
+section#products .iphones div {
+    margin: 20px 80px;
+}
